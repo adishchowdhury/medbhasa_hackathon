@@ -1,0 +1,9 @@
+note_id	token(s)	old_tag	new_tag	reason
+n014	ইনহেলার	B-DOSAGE	I-MEDICATION	dosage form is part of the MEDICATION span (convention C4)
+n029	স্প্রে	B-DOSAGE	I-MEDICATION	dosage form is part of the MEDICATION span (convention C4)
+n024	ফলো-আপ	I-TEMPORAL	O	'follow-up' is not a time expression; the time is 'এক সপ্তাহ পর'
+n028	কোনো	B-NEGATION_UNCERTAINTY	O	only the marker itself is tagged (schema section 3); 'কোনো' is a quantifier
+n040	নিয়মিত	B-DOSAGE	O	'regular walking' is advice, not a medication frequency
+n018	পাথর	B-DIAGNOSIS	B-TEST_RESULT	imaging finding reported by ultrasound -> TEST_RESULT (convention C6)
+n019	খালি পেটে	O/B-BODY_SITE	I-DOSAGE/I-DOSAGE	'সকালে খালি পেটে' is one dosage-timing phrase
+n040	খালি পেটের শর্করা	O/B-BODY_SITE/B-TEST	B-TEST/I-TEST/I-TEST	'খালি পেটের শর্করা' (fasting sugar) is one TEST span

@@ -1,0 +1,1 @@
+**Verified (2026-11-11):** the notebook run and a second, independent full run of `scripts/run_pipeline.py` under `PYTHONHASHSEED=12345` produced byte-identical files for all 27 output files in `outputs/` (`scripts/check_reproducibility.py`: "REPRODUCIBLE"). The check also caught and led us to fix one hash-order dependence (tie ordering in the association tables).

@@ -1,0 +1,14 @@
+# Minimal runtime requirements (CPU only, no internet needed at run time).
+# Exact versions used for the submitted outputs are in requirements-lock.txt.
+numpy>=2.0
+pandas>=2.2
+scipy>=1.11
+scikit-learn>=1.4
+sklearn-crfsuite>=0.5
+seqeval>=1.2.2
+networkx>=3.2
+matplotlib>=3.8
+# notebook execution
+nbformat>=5.9
+nbconvert>=7.16
+ipykernel>=6.29
