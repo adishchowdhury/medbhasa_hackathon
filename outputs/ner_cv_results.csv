@@ -1,0 +1,9 @@
+evaluation,model,precision,recall,f1
+random 5-fold (by note),full: lexicon + section features,0.8883,0.8641,0.876
+random 5-fold (by note),no gazetteer lexicon,0.8662,0.8282,0.8468
+random 5-fold (by note),no section features,0.8935,0.862,0.8775
+random 5-fold (by note),neither (plain CRF),0.873,0.8251,0.8484
+domain-held-out 5-fold,full: lexicon + section features,0.8733,0.8489,0.8609
+domain-held-out 5-fold,no gazetteer lexicon,0.8362,0.7923,0.8137
+domain-held-out 5-fold,no section features,0.8733,0.8413,0.857
+domain-held-out 5-fold,neither (plain CRF),0.8487,0.7799,0.8129

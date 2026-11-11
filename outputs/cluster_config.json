@@ -1,0 +1,17 @@
+{
+  "chosen": {
+    "algorithm": "ward",
+    "k": 90
+  },
+  "n_clusters": 90,
+  "silhouette": 0.7766592163475756,
+  "davies_bouldin": 0.7167814226472683,
+  "proxy_check": {
+    "note": "sanity check against the diagnosis line printed in the note (regex), NOT the hidden gold",
+    "notes_with_diagnosis_line": 1315,
+    "distinct_diagnosis_strings": 203,
+    "NMI": 0.905,
+    "ARI": 0.5652
+  },
+  "seed": 42
+}

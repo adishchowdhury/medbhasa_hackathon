@@ -1,0 +1,144 @@
+type,entity,count
+DIAGNOSIS,ডায়াবেটিস,139
+DIAGNOSIS,উচ্চ রক্তচাপ,120
+DIAGNOSIS,অ্যালার্জি,114
+DIAGNOSIS,অ্যালার্জির ইতিহাস,88
+DIAGNOSIS,স্ক্যাবিস,35
+DIAGNOSIS,গর্ভাবস্থা,27
+DIAGNOSIS,জল শূন্যতা,25
+DIAGNOSIS,epigastrium,23
+DIAGNOSIS,অ্যালার্জিক রাইনাইটিস,22
+DIAGNOSIS,আর্টিকারিয়া,21
+DIAGNOSIS,হারপিস জোস্টার,21
+DIAGNOSIS,বিষণ্নতা,20
+DIAGNOSIS,অ্যাটোপিক ডার্মাটাইটিস,19
+DIAGNOSIS,তীব্র ওটাইটিস মিডিয়া,18
+DIAGNOSIS,টনসিলাইটিস,17
+SYMPTOM,ব্যথা,474
+SYMPTOM,জ্বর,359
+SYMPTOM,ফোলা,277
+SYMPTOM,চুলকানি,241
+SYMPTOM,জ্বালা,215
+SYMPTOM,চুলকাচ্ছে,133
+SYMPTOM,লালচে,127
+SYMPTOM,পুঁজ,121
+SYMPTOM,দাগ,114
+SYMPTOM,কাশি,108
+SYMPTOM,শ্বাসকষ্ট,106
+SYMPTOM,লাল,105
+SYMPTOM,মাথাব্যথা,100
+SYMPTOM,হালকা জ্বর,93
+SYMPTOM,তীব্র ব্যথা,92
+MEDICATION,প্যারাসিটামল,358
+MEDICATION,সিটিরিজিন,130
+MEDICATION,ওআরএস,117
+MEDICATION,ক্যালামাইন লোশন,107
+MEDICATION,প্যারাসিটামল সিরাপ,97
+MEDICATION,অ্যান্টিবায়োটিকের,82
+MEDICATION,প্যান্টোপ্রাজল,76
+MEDICATION,ডাইক্লোফেনাক,72
+MEDICATION,সিটিরিজিন সিরাপ,69
+MEDICATION,অ্যাসপিরিন,68
+MEDICATION,লুব্রিকেন্ট আই ড্রপ,65
+MEDICATION,প্রেডনিসোলোন,61
+MEDICATION,অ্যামোক্সিসিলিন,58
+MEDICATION,অ্যাসাইক্লোভির,57
+MEDICATION,ফেক্সোফেনাডিন,50
+DOSAGE,১০ মি.গ্রা. রাতে ১টি,173
+DOSAGE,দিনে ৪ বার,142
+DOSAGE,দিনে ২ বার,130
+DOSAGE,৫০০ মি.গ্রা. প্রয়োজনে,126
+DOSAGE,দিনে ৩-৪ বার,118
+DOSAGE,দিনে ৩ বার,110
+DOSAGE,দিনে ১টি,102
+DOSAGE,রাতে বয়স,69
+DOSAGE,৪০ মি.গ্রা. সকালে,64
+DOSAGE,১২০ মি.গ্রা. দিনে ১টি,59
+DOSAGE,৮০০ মি.গ্রা. দিনে ৫ বার,57
+DOSAGE,৫ মি.গ্রা. রাতে ১টি,55
+DOSAGE,খাবারের পর,48
+DOSAGE,রাতে,46
+DOSAGE,৫০০ মি.গ্রা. দিনে ২ বার,46
+TEST,নাড়ির গতি,545
+TEST,তাপমাত্রা,510
+TEST,রক্তচাপ,445
+TEST,ওজন,224
+TEST,এক্স-রে,137
+TEST,CBC,87
+TEST,SpO₂,77
+TEST,দৃষ্টিশক্তি,66
+TEST,শ্বাসের হার,65
+TEST,BMI,55
+TEST,প্লেটলেট কাউন্ট,51
+TEST,TSH,44
+TEST,রক্তে শর্করা,41
+TEST,ওজন অনুযায়ী,37
+TEST,মোট শ্বেতকণিকা,34
+TEST_RESULT,পজিটিভ,144
+TEST_RESULT,বেশি,53
+TEST_RESULT,স্বাভাবিক,41
+TEST_RESULT,১০০/মিনিট,32
+TEST_RESULT,৮৬/মিনিট,30
+TEST_RESULT,১০-১৫ মি.গ্রা./কেজি,28
+TEST_RESULT,পরিষ্কার,27
+TEST_RESULT,১০৪/মিনিট,25
+TEST_RESULT,৬/৯,25
+TEST_RESULT,বর্ধিত,22
+TEST_RESULT,৯৪/মিনিট,22
+TEST_RESULT,সামান্য কমেছে,21
+TEST_RESULT,১০৯/মিনিট,20
+TEST_RESULT,১৮/মিনিট,20
+TEST_RESULT,৯২/মিনিট,20
+BODY_SITE,চোখ,350
+BODY_SITE,নাক,307
+BODY_SITE,পেট,300
+BODY_SITE,বুকে,202
+BODY_SITE,কানে,187
+BODY_SITE,গলা,169
+BODY_SITE,ত্বক,155
+BODY_SITE,মুখে,148
+BODY_SITE,ফুসফুসে,112
+BODY_SITE,পায়ে,105
+BODY_SITE,তলপেটে,91
+BODY_SITE,ঘাড়ে,86
+BODY_SITE,গলায়,73
+BODY_SITE,চোখের পাতা,70
+BODY_SITE,টনসিল,66
+PROCEDURE,ফিজিওথেরাপি,81
+PROCEDURE,অক্সিজেন থেরাপি,17
+PROCEDURE,নেবুলাইজেশন,17
+PROCEDURE,কাউন্সেলিং,15
+PROCEDURE,ড্রেসিং,11
+PROCEDURE,আপার জিআই এন্ডোস্কপি,9
+PROCEDURE,পা উঁচু রাখা,9
+PROCEDURE,এন্ডোস্কপি,8
+PROCEDURE,এপলি ম্যানুভার,8
+PROCEDURE,এছাড়া আপার জিআই এন্ডোস্কপি,7
+PROCEDURE,ফটোথেরাপির,7
+PROCEDURE,কগনিটিভ বিহেভিয়ারাল থেরাপি,6
+PROCEDURE,পাতা পরিষ্কারের,5
+PROCEDURE,প্লান্টার ফ্যাসিয়া স্ট্রেচিং ব্যায়াম,5
+PROCEDURE,হাইড্রোকুইনোন ২%,5
+TEMPORAL,৫ দিন,496
+TEMPORAL,১ সপ্তাহ পর,295
+TEMPORAL,৩ দিন,276
+TEMPORAL,৭ দিন,213
+TEMPORAL,৩ দিন পর,208
+TEMPORAL,৫ দিন পর,189
+TEMPORAL,৭ দিন পর,181
+TEMPORAL,২ সপ্তাহ পর,131
+TEMPORAL,২ দিন,128
+TEMPORAL,১ মাস পর,108
+TEMPORAL,২ সপ্তাহ,101
+TEMPORAL,২ দিন ধরে,95
+TEMPORAL,ফার্মেসি থেকে,93
+TEMPORAL,৩ মাস পর,93
+TEMPORAL,১ মাস,91
+NEGATION_UNCERTAINTY,নেই,1133
+NEGATION_UNCERTAINTY,নয়,195
+NEGATION_UNCERTAINTY,সন্দেহজনক,37
+NEGATION_UNCERTAINTY,সন্দেহ,36
+NEGATION_UNCERTAINTY,না,25
+NEGATION_UNCERTAINTY,পড়ছে না,3
+NEGATION_UNCERTAINTY,যায়নি,2
+NEGATION_UNCERTAINTY,পাওয়া যায়নি,1

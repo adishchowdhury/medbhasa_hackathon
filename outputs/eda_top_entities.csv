@@ -1,0 +1,81 @@
+type,entity,count
+DIAGNOSIS,ডায়াবেটিস,16
+DIAGNOSIS,উচ্চ রক্তচাপ,9
+DIAGNOSIS,হাঁপানি,6
+DIAGNOSIS,সিওপিডি,5
+DIAGNOSIS,হার্ট ফেইলিওর,5
+DIAGNOSIS,টাইপ ২ ডায়াবেটিস,4
+DIAGNOSIS,বিষণ্নতা,4
+DIAGNOSIS,অ্যালার্জি,3
+SYMPTOM,ব্যথা,57
+SYMPTOM,জ্বর,48
+SYMPTOM,ফোলা,22
+SYMPTOM,শ্বাসকষ্ট,20
+SYMPTOM,বমি,18
+SYMPTOM,কাশি,17
+SYMPTOM,চুলকানি,12
+SYMPTOM,ক্লান্তি,11
+MEDICATION,প্যারাসিটামল,21
+MEDICATION,NSAID,9
+MEDICATION,অ্যান্টিবায়োটিক,8
+MEDICATION,অ্যাসপিরিন,8
+MEDICATION,ওআরএস,8
+MEDICATION,মেটফর্মিন,7
+MEDICATION,ক্যালসিয়াম,6
+MEDICATION,প্যারাসিটামল সিরাপ,5
+DOSAGE,দিনে ১টি,14
+DOSAGE,দিনে ২ বার,14
+DOSAGE,প্রয়োজনে,11
+DOSAGE,দিনে ১ বার,10
+DOSAGE,দিনে ৩ বার,10
+DOSAGE,রাতে ১টি,6
+DOSAGE,৫০০ মি.গ্রা. দিনে ২ বার,6
+DOSAGE,সকালে,5
+TEST,রক্তচাপ,20
+TEST,আল্ট্রাসনোগ্রাফি-তে,17
+TEST,এক্স-রে,16
+TEST,SpO₂,13
+TEST,তাপমাত্রা,13
+TEST,ইসিজি,12
+TEST,নাড়ির গতি,10
+TEST,হিমোগ্লোবিন,10
+TEST_RESULT,পজিটিভ,17
+TEST_RESULT,স্বাভাবিক,15
+TEST_RESULT,বেশি,8
+TEST_RESULT,কম,7
+TEST_RESULT,নেগেটিভ,4
+TEST_RESULT,পুঁজকোষ বেশি,3
+TEST_RESULT,৯০%,3
+TEST_RESULT,ST এলিভেশন,2
+BODY_SITE,বুকে,26
+BODY_SITE,পেটে,18
+BODY_SITE,ফুসফুসে,12
+BODY_SITE,মুখ,10
+BODY_SITE,চোখ,8
+BODY_SITE,পায়ে,8
+BODY_SITE,গলা,6
+BODY_SITE,নাক,6
+PROCEDURE,ফিজিওথেরাপি,9
+PROCEDURE,ড্রেসিং,5
+PROCEDURE,অক্সিজেন থেরাপি,4
+PROCEDURE,এন্ডোস্কপি,4
+PROCEDURE,নেবুলাইজেশন,4
+PROCEDURE,কাউন্সেলিং,3
+PROCEDURE,কোলনোস্কপি,3
+PROCEDURE,অপারেশন-এর,2
+TEMPORAL,১ সপ্তাহ পর,25
+TEMPORAL,২ সপ্তাহ পর,22
+TEMPORAL,৪ সপ্তাহ পর,19
+TEMPORAL,২ দিন ধরে,15
+TEMPORAL,৩ দিন পর,12
+TEMPORAL,৭ দিন,12
+TEMPORAL,৩ মাস ধরে,11
+TEMPORAL,৩ দিন ধরে,10
+NEGATION_UNCERTAINTY,নেই,96
+NEGATION_UNCERTAINTY,সন্দেহ,20
+NEGATION_UNCERTAINTY,নয়,11
+NEGATION_UNCERTAINTY,না,6
+NEGATION_UNCERTAINTY,হতে পারে,5
+NEGATION_UNCERTAINTY,সম্ভাব্য,4
+NEGATION_UNCERTAINTY,আসেনি,2
+NEGATION_UNCERTAINTY,পাওয়া যায়নি,2
