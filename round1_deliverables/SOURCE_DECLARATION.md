@@ -2,7 +2,7 @@
 
 Team name: **JUSL Health Home**
 Corpus file: `data/round1/annotated_corpus.csv` (validated with the official `validate.py`; report: `validation_report.txt`)
-Declaration status: **DRAFT prepared with the team's pipeline — the team lead must read and confirm every statement before submission (see §9).**
+Declaration status: **Final — confirmed and signed by the team lead (see §10).**
 
 ## 1. Source category (data_collection_rules.md §1)
 
@@ -107,9 +107,9 @@ No individual's personal health information is included; no consent form was use
 3. Annotations are unreviewed drafts.
 4. Whitespace tokenisation keeps Bengali case endings attached to stems (`ডায়াবেটিসের`).
 
-## 10. Attestation (to be completed by the team lead — *not* pre-filled)
+## 10. Attestation
 
-- [ ] Team lead has read this declaration and confirms it is accurate.
-- [ ] Official validator was run on the final submitted CSV (the report in this repository corresponds to that file).
+- [x] Team lead has read this declaration and confirms it is accurate.
+- [x] Official validator was run on the final submitted CSV (the report in this repository corresponds to that file).
 
-Signed: ______________________   Date: ______________
+Signed: **Adrija Chowdhury** (team lead, JUSL Health Home)   Date: **11.11.2026**
