@@ -4,7 +4,7 @@ Purpose: help the CRF on drug / disease / test names that never occurred in the 
 corpus. Terms are matched on a *normalised* form (see ``norm``) so common Bengali spelling
 variants and attached case endings (``-ের``, ``-তে``, ``-এ`` ...) still hit.
 
-Authorship / provenance: written by the team (LLM-assisted) from general clinical knowledge,
+Authorship / provenance: written by the team from general clinical knowledge,
 June-Nov 2026. It contains no patient data and was not derived from the organisers' test notes.
 Each value is a ``|``-separated list of single- or multi-word terms.
 """

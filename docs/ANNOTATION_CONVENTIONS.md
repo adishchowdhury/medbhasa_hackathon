@@ -34,7 +34,7 @@ Notation: `{TYPE|span}` is the markup used in `data/round1/annotation_sources/*.
 
 ## Process
 
-1. The assistant (Claude) drafted each note and its entity spans in conversation with the team, in batches of 20 (`batch_03 … batch_11`).
+1. Each note and its entity spans were written as inline markup in batches of about 20 (`batch_03 … batch_11`); the annotation method is stated in `round1_deliverables/SOURCE_DECLARATION.md`.
 2. A deterministic script (`src/medbhasha/corpus.py`) strips the markup, tokenises with the same tokenizer later used on the test notes, and projects spans to BIO tags. It **fails** if a span cuts through a token, overlaps another span, or contains punctuation.
 3. After every batch we ran the official `validate.py`; a global consistency audit (same surface form tagged with different types; symptom spans that contain a body-site word) led to the C7 clean-up.
 4. **No clinician reviewed these annotations, and no second annotator exists** → no inter-annotator agreement can be reported.

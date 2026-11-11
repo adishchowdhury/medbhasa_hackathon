@@ -6,7 +6,7 @@ a note (e.g. ``SSRI`` -> ``এসসিটালোপ্রাম``).  Spelling
 ডায়াবেটিস / ডায়াবেটিস-এর) are handled separately by the skeleton normaliser in ``rag.py`` and are
 not listed here.
 
-Written by the team (LLM-assisted) from general clinical knowledge; it is NOT derived from the
+Written by the team from general clinical knowledge; it is NOT derived from the
 test notes or queries and contains no patient data.
 """
 

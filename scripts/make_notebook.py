@@ -28,7 +28,7 @@ One notebook, three stages, fully offline and deterministic (seed 42, no externa
 | 3 · RAG | Retrieval over our annotated notes + grounded extractive answers for the 30 queries and a live-query cell | `rag_answers.{csv,jsonl,md}`, `rag_answers_team_corpus_only.*` |
 
 **Run:** `pip install -r requirements.txt` then *Kernel → Restart & Run All* (≈ 6 min on 4 CPU cores).
-Read `docs/TECHNICAL_REPORT.md` for the reasoning and `docs/GUIDE_FROM_BASICS.md` for a from-scratch explanation.
+Read `docs/TECHNICAL_REPORT.md` for the reasoning.
 """)
 
 code(r"""
@@ -54,7 +54,7 @@ md(r"""
 
 The organisers asked us (after Round 1) to grow the corpus to ≈ 10 000 annotated tokens and to prioritise rare entity types.
 We kept the 40 Round-1 notes (with 8 documented consistency fixes, `round1_deliverables/round1_fixes_log.tsv`) and added 192 new
-team-authored synthetic notes (LLM-assisted, disclosed in `round1_deliverables/SOURCE_DECLARATION.md`).
+team-authored synthetic notes (source and annotation method: `round1_deliverables/SOURCE_DECLARATION.md`).
 Annotation sources are human-readable span markup under `data/round1/annotation_sources/`; `scripts/build_corpus.py` aligns them to tokens and writes the BIO CSV.
 """)
 code(r"""

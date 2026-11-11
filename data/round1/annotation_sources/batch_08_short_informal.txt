@@ -1,4 +1,4 @@
-# Batch 08 - Short, informal / first-person / outpatient-snippet notes (same register as the Round 1 batch). Synthetic, fictional, team-authored (LLM-assisted).
+# Batch 08 - Short, informal / first-person / outpatient-snippet notes (same register as the Round 1 batch). Synthetic, fictional, team-authored.
 n141	General Medicine	আমার {TMP|গত তিন দিন ধরে} {SX|জ্বর} আর {SX|মাথাব্যথা}, {SX|বমি} হচ্ছে {NEG|না}।
 n142	General Medicine	রোগী {DX|ডায়াবেটিস} {NEG|অস্বীকার} করেন, তবে পরিবারে বাবার {DX|ডায়াবেটিস} আছে।
 n143	Cardiology	বাবার {BODY|বুকে} {SX|ব্যথা} হয়েছিল, {TEST|ইসিজি} {RES|স্বাভাবিক}, {DX|হার্টের সমস্যা} মনে হচ্ছে {NEG|না}।

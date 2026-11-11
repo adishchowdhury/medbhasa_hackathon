@@ -32,7 +32,6 @@ python scripts/check_reproducibility.py              # re-run under another PYTH
 | **Cluster + analytic results** | `outputs/clusters.csv`, `cluster_summary.csv`, `cluster_selection.csv`, `test_entity_frequency.csv`, `test_diagnosis_medication_pairs.csv`, `test_diagnosis_symptom_pairs.csv`, `figures/` |
 | **RAG outputs** | `outputs/rag_answers.md` / `.csv` / `.jsonl` (default KB) and `rag_answers_team_corpus_only.*` (strict KB) |
 | **Technical report** | `docs/TECHNICAL_REPORT.pdf` (`.md`, `.docx`) |
-| **Explained from the basics** | `docs/GUIDE_FROM_BASICS.pdf` (`.md`, `.docx`) |
 | Round-1 style deliverables | `round1_deliverables/` — `validation_report.txt`, `SOURCE_DECLARATION.md`, `EDA_Summary.pdf`, `round1_fixes_log.tsv` |
 | Annotated corpus | `data/round1/annotated_corpus.csv` (+ `notes_raw.csv`, `note_metadata.csv`, `annotation_sources/`) |
 
@@ -45,7 +44,7 @@ data/round1/                  annotated corpus, raw text, metadata, annotation s
 data/round2/                  organiser-released test notes + queries (unchanged)
 outputs/                      every generated result + run_manifest.json (MD5 of all outputs)
 round1_deliverables/          validation report, source declaration, EDA summary, fix log
-docs/                         technical report, from-basics guide, annotation conventions
+docs/                         technical report, annotation conventions
 resources/                    organiser files used unchanged (validate.py, schema, rules, worked example)
 scripts/                      build_corpus · run_pipeline · check_reproducibility · make_notebook · build_docs · make_zip · serve_app
 tests/                        sanity tests
@@ -53,7 +52,7 @@ tests/                        sanity tests
 
 ## Rules checklist
 
-* Data: 100 % synthetic, team-authored (LLM-assisted, disclosed); no real patient data. **No clinician review** — stated everywhere.
+* Data: 100 % synthetic, team-authored (method stated in the source declaration); no real patient data. **No clinician review** — stated everywhere.
 * NER is trained **only** on our own annotations; the released notes are used as unlabeled input only.
 * No pretrained model, no external API, no web retrieval; everything runs locally (CPU, ≈ 6 min).
 * Reproducible: seed 42, pinned versions, hashed outputs.

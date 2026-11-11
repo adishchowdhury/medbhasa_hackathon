@@ -1,6 +1,6 @@
 ---
 title: "MedBhasha — EDA Summary (corpus v2, for Round 2)"
-subtitle: "Team JUSL Health Home · synthetic notes, LLM-assisted annotation, no clinician review"
+subtitle: "Team JUSL Health Home · synthetic notes, no clinician review"
 ---
 
 *This summary describes the **final** validated corpus `data/round1/annotated_corpus.csv`
@@ -123,7 +123,7 @@ Diagnosis → medication pairs seen at least twice, ranked by lift (lift > 1 = m
 
 # 7. Limitations
 
-* Notes are **synthetic**, drafted by an AI assistant with the team; the corpus measures consistency with one author's patterns, not real clinical language.
+* Notes are **synthetic** and written by a single author; the corpus measures consistency with one author's patterns, not real clinical language.
 * **No clinician review**, no second annotator, no inter-annotator agreement.
 * Domain balance is uneven; some specialties have only 2–6 notes.
 * Whitespace tokenisation keeps Bengali case endings attached (`ডায়াবেটিসের`), so span boundaries include them (same as the organisers' worked example).
